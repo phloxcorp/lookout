@@ -49,16 +49,19 @@ a {
 }
 
 .fab {
-  height: 6rem;
+  padding: 1.6rem 2.2rem;
   display: grid;
   grid-template-columns: max-content 1fr;
+  column-gap: .8rem;
   bottom: 0;
 }
 
 .button {
   border: none;
+  border-radius: .9rem;
   background: black;
   cursor: pointer;
+  box-shadow: 0 .2rem 3rem rgba(0, 0, 0, .31);
   color: white;
   font-weight: 700;
   font-size: 1.6rem;
